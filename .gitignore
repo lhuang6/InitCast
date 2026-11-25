@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter Notebooks
+notebooks/
+
+# Training data
+training/
+*.npy

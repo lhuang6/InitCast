@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = 'InitCast'
+version = '0.1.0'
+authors = [
+    { name="Lucas Huang", email="lxzhuang7@gmail.com" },
+]
+description = "Training xgboost for convective initiation"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "xarray",
+    "optuna",
+    "pysteps",
+    "cartopy",
+    "scikit-learn",
+    "shap",
+    "xgboost",
+    "herbie-data",
+    "metpy",
+    "sounderpy"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mypackage = ["data/*.json"]
+
+[project.optional-dependencies]
+soundings = ["sounderpy"]

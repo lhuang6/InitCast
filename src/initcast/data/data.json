@@ -1,0 +1,371 @@
+{"herbie": {
+    "refc": {
+        "search": "REFC:entire atmosphere",
+        "xarray_name": "refc",
+        "units": "dBz"
+    },
+    "2-5 uh": {
+        "search": "MXUPHL:5000-2000 m above ground",
+        "xarray_name": "unknown",
+        "units": "J/kg"
+    },
+    "0-3 uh": {
+        "search": "MXUPHL:3000-0 m above ground",
+        "xarray_name": "unknown",
+        "units": "J/kg"
+    },
+    "3srh": {
+        "search": "HLCY:3000-0 m above ground",
+        "xarray_name": "hlcy",
+        "units": "J/kg"
+    },
+    "1srh": {
+        "search": "HLCY:1000-0 m above ground",
+        "xarray_name": "hlcy",
+        "units": "J/kg"
+    },
+    "sbcape": {
+        "search": "CAPE:surface:",
+        "xarray_name": "cape",
+        "units": "J/kg"
+    },
+    "sbcin": {
+        "search": "CIN:surface:",
+        "xarray_name": "cin",
+        "units": "J/kg"
+    },
+    "mlcape": {
+        "search": "CAPE:180-0 mb above ground:",
+        "xarray_name": "cape",
+        "units": "J/kg"
+    },
+    "mlcin": {
+        "search": "CIN:180-0 mb above ground:",
+        "xarray_name": "cin",
+        "units": "J/kg"
+    },
+    "mucape": {
+        "search": "CAPE:255-0 mb above ground:",
+        "xarray_name": "cape",
+        "units": "J/kg"
+    },
+    "mucin": {
+        "search": "CIN:255-0 mb above ground:",
+        "xarray_name": "cin",
+        "units": "J/kg"
+    },
+    "2m temp": {
+        "search": "TMP:2 m above ground:",
+        "xarray_name": "t2m",
+        "units": "K"
+    },
+    "2m dewp": {
+        "search": "DPT:2 m above ground:",
+        "xarray_name": "d2m",
+        "units": "K"
+    },
+    "lfc": {
+        "search": "HGT:level of free convection",
+        "xarray_name": "gh",
+        "units": "m"
+    },
+    "pbl": {
+        "search": "HGT:planetary boundary layer",
+        "xarray_name": "gh",
+        "units": "m"
+    },
+    "li": {
+        "search": "LFTX:500-1000 mb:",
+        "xarray_name": "lftx",
+        "units": "K"
+    },
+    "dew_dep": {
+        "search": "DEPR:2 m above ground",
+        "xarray_name": "unknown",
+        "units": "K"
+    },
+    "u": {
+        "search": "VGRD:10 m above ground",
+        "xarray_name": "u10",
+        "units": "m/s"
+    },
+    "v": {
+        "search": "VGRD:10 m above ground",
+        "xarray_name": "v10",
+        "units": "m/s"
+    },
+    "u_850": {
+        "search": "VGRD:850 mb",
+        "xarray_name": "u",
+        "units": "m/s"
+    },
+    "v_850": {
+        "search": "VGRD:850 mb",
+        "xarray_name": "v",
+        "units": "m/s"
+    },
+    "u_700": {
+        "search": "VGRD:700 mb",
+        "xarray_name": "u",
+        "units": "m/s"
+    },
+    "v_700": {
+        "search": "VGRD:700 mb",
+        "xarray_name": "v",
+        "units": "m/s"
+    },
+    "u_500": {
+        "search": "VGRD:500 mb",
+        "xarray_name": "u",
+        "units": "m/s"
+    },
+    "v_500": {
+        "search": "VGRD:500 mb",
+        "xarray_name": "v",
+        "units": "m/s"
+    },
+    "u_300": {
+        "search": "VGRD:300 mb",
+        "xarray_name": "u",
+        "units": "m/s"
+    },
+    "v_300": {
+        "search": "VGRD:300 mb",
+        "xarray_name": "v",
+        "units": "m/s"
+    },
+    "vshear_6000": {
+        "search": "VVCSH:0-6000 m above ground",
+        "xarray_name": "vvcsh",
+        "units": "m/s"
+    },
+    "ushear_6000": {
+        "search": "VVCSH:0-6000 m above ground",
+        "xarray_name": "vucsh",
+        "units": "m/s"
+    },
+    "temp_1000": {
+        "search": "TMP:1000 mb",
+        "xarray_name": "t",
+        "units": "K"
+    },
+    "temp_850": {
+        "search": "TMP:850 mb",
+        "xarray_name": "t",
+        "units": "K"
+    },
+    "temp_700": {
+        "search": "TMP:700 mb",
+        "xarray_name": "t",
+        "units": "K"
+    },
+    "temp_500": {
+        "search": "TMP:500 mb",
+        "xarray_name": "t",
+        "units": "K"
+    },
+    "temp_300": {
+        "search": "TMP:300 mb",
+        "xarray_name": "t",
+        "units": "K"
+    },
+    "rh_1000": {
+        "search": "RH:1000 mb",
+        "xarray_name": "r",
+        "units": "%"
+    },
+    "rh_850": {
+        "search": "RH:850 mb",
+        "xarray_name": "r",
+        "units": "%"
+    },
+    "rh_700": {
+        "search": "RH:700 mb",
+        "xarray_name": "r",
+        "units": "%"
+    },
+    "rh_500": {
+        "search": "RH:500 mb",
+        "xarray_name": "r",
+        "units": "%"
+    },
+    "rh_300": {
+        "search": "RH:300 mb",
+        "xarray_name": "r",
+        "units": "%"
+    },
+    "vvel_1000": {
+        "search": "VVEL:1000 mb",
+        "xarray_name": "w",
+        "units": "Pa/s"
+    },
+    "vvel_850": {
+        "search": "VVEL:850 mb",
+        "xarray_name": "w",
+        "units": "Pa/s"
+    },
+    "vvel_700": {
+        "search": "VVEL:700 mb",
+        "xarray_name": "w",
+        "units": "Pa/s"
+    },
+    "vvel_500": {
+        "search": "VVEL:500 mb",
+        "xarray_name": "w",
+        "units": "Pa/s"
+    },
+    "vvel_300": {
+        "search": "VVEL:300 mb",
+        "xarray_name": "w",
+        "units": "Pa/s"
+    },
+    "hght_1000": {
+        "search": "HGT:1000 mb",
+        "xarray_name": "gh",
+        "units": "m"
+    },
+    "hght_850": {
+        "search": "HGT:850 mb",
+        "xarray_name": "gh",
+        "units": "m"
+    },
+    "hght_700": {
+        "search": "HGT:700 mb",
+        "xarray_name": "gh",
+        "units": "m"
+    },
+    "hght_500": {
+        "search": "HGT:500 mb",
+        "xarray_name": "gh",
+        "units": "m"
+    },
+    "hght_300": {
+        "search": "HGT:300 mb",
+        "xarray_name": "gh",
+        "units": "m"
+    }
+},
+
+"calculate": ["wspd", "wspd_500", "wspd_300", "wspd_700", "wspd_850", "sfc_conv",
+              "shear_6000","advection_850", "advection_700", "advection_500", "vort_700",
+              "vort_500", "vort_300","va_700", "va_500", "va_300", "dpva", "q_vect_conv"],
+"calculate_units": {
+    "wspd": "m/s",
+    "wspd_500": "m/s",
+    "wspd_300": "m/s",
+    "wspd_700": "m/s",
+    "wspd_850": "m/s", 
+    "sfc_conv": "1/s",
+    "shear_6000": "m/s",
+    "advection_850": "K/s", 
+    "advection_700": "K/s",
+    "advection_500": "K/s",
+    "vort_700": "1/s",
+    "vort_500": "1/s",
+    "vort_300": "1/s",
+    "va_700": "1/s^2", 
+    "va_500": "1/s^2",
+    "va_300": "1/s^2",
+    "dpva": "1/s^2", 
+    "q_vect_conv": "'m/(kg s)'"
+},
+"plot": {
+    "refc": {
+        "ct": "metpy",
+        "ct_name": "NWSReflectivity",
+        "range": [0, 75],
+        "units": "dBz",
+        "set_under": "white"
+    },
+    "2m temp": {
+        "ct": "metpy",
+        "ct_name": "rainbow",
+        "range": [-40, 120],
+        "units": "degF"
+    }, 
+    "2m dewp": {
+        "ct": "ct",
+        "ct_name": "dwpt",
+        "range": [-40, 120, 131],
+        "units": "degF"
+    },
+    "sbcape": {
+        "ct": "ct",
+        "ct_name": "composite",
+        "range": [0, 10000, 101],
+        "units": "J/kg"
+    },
+    "mlcape": {
+        "ct": "ct",
+        "ct_name": "composite",
+        "range": [0, 10000, 101],
+        "units": "J/kg"
+    },
+    "mucape": {
+        "ct": "ct",
+        "ct_name": "composite",
+        "range": [0, 10000, 101],
+        "units": "J/kg"
+    }, 
+    "3cape": {
+        "ct": "ct",
+        "ct_name": "composite",
+        "range": [0, 500, 101],
+        "units": "J/kg"
+    }, 
+    "mlcin": {
+        "ct": "ct",
+        "ct_name": "cin",
+        "range": [-1000, 0, 101],
+        "units": "J/kg"
+    },
+    "sbcin": {
+        "ct": "ct",
+        "ct_name": "cin",
+        "range": [-1000, 0, 101],
+        "units": "J/kg"
+    },
+    "mucin": {
+        "ct": "ct",
+        "ct_name": "cin",
+        "range": [-1000, 0, 101],
+        "units": "J/kg"
+    },
+    "3srh": {
+        "ct": "ct",
+        "ct_name": "composite",
+        "range": [0, 1000, 101],
+        "units": "J/kg"
+    },
+    "1srh": {
+        "ct": "ct",
+        "ct_name": "composite",
+        "range": [0, 1000, 101],
+        "units": "J/kg"
+    },
+    "wspd_300": {
+        "ct": "ct",
+        "ct_name": "wspd",
+        "range": [50, 170, 121],
+        "units": "knots"
+    },
+    "wspd_500": {
+        "ct": "ct",
+        "ct_name": "wspd",
+        "range": [20, 140, 121],
+        "units": "knots"
+    },
+    "wspd_700": {
+        "ct": "ct",
+        "ct_name": "wspd",
+        "range": [20, 80, 61],
+        "units": "knots"
+    }, 
+    "wspd_850": {
+        "ct": "ct",
+        "ct_name": "wspd",
+        "range": [20, 80, 61],
+        "units": "knots"
+    }
+}
+}
