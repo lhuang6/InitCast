@@ -220,7 +220,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Jupyter Notebooks
-notebooks/
+personal_notebooks/
 
 # Training data
 training/
